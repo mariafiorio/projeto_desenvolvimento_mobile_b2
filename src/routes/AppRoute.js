@@ -8,7 +8,7 @@ export default function AppRoutes(){
     return(
         <Stack.Navigator>
             <Stack.Screen name="MoviesPage" component={MoviesPage} options={{headerShown: false}}/>
-            <Stack.Screen name="MoviesDetailsPage" component={MoviesDetailsPage} options={{headerShown: true}}/>
+            <Stack.Screen name="MoviesDetails" component={MoviesDetails} options={{headerShown: true}}/>
         </Stack.Navigator>
     )
 }
